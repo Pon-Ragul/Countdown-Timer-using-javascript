@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+#countdown {
+    display: grid;
+    justify-content: center;
+    border: 2px ; /* You need to specify a color for the border */
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px auto;
+    width: fit-content;
+    box-shadow: 0px 2px 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+#timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 150%;
+    border: 2px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: fit-content;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#message{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+    color: green;
+}
+#reuse{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120%;
+    font-weight: bold;
+}
+.buttons{
+    margin-top: 20px;
+}
+.buttons button {
+    font-size: 110%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width:fit-content;
+    border: none;
+}
+.buttons button.yes {
+    background-color: green;
+    color: white;
+}
+.buttons button.no {
+    background-color: red;
+    color: white;
+}
