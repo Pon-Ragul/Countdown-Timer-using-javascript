@@ -1,4 +1,4 @@
-#Countdown-Timer-using-javascript
+Countdown-Timer-using-javascript
 
 This project is a simple and interactive web application designed to create a countdown timer. The application allows users to set a target date and time and provides an intuitive interface for tracking the countdown. Once the countdown ends, users can either reset the timer or end the session.
 
@@ -171,12 +171,12 @@ body{
 
 Usage:
 1. Clone the repository:
-    git clone https:https://github.com/Pon-Ragul/Countdown-Timer-using-javascript.git
-2. Navigate to the project directory:
+    git clone https://github.com/Pon-Ragul/Countdown-Timer-using-javascript.git
+3. Navigate to the project directory:
     cd Countdown-Timer-using-javascript
-3. Open index.html in your browser to start the application.
-4. Set the target date and time via the prompt.
-5. Watch the countdown and interact with the reset or end buttons once the countdown finishes.
+4. Open index.html in your browser to start the application.
+5. Set the target date and time via the prompt.
+6. Watch the countdown and interact with the reset or end buttons once the countdown finishes.
 
 License:
 This project is licensed under the MIT License.
